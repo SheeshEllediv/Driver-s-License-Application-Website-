@@ -22,6 +22,10 @@ ul {
     position: sticky;
 
   }
+  li a{
+    text-decoration: underline;
+    border-bottom: 1px;
+  }
   
   li {
     float: right;
@@ -32,7 +36,7 @@ ul {
     height: 18px;
     padding: 10px 10px;
     text-align: center;
-    font-family: 'Saira Condensed';
+    font-family: Helvetica;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -42,12 +46,7 @@ ul {
   }
   #download
   {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px 10px;
-    gap: 10px;
-    width: 127px;
+    width: 130px;
     height: 38px;
     background: #2296F1;
   }
@@ -130,7 +129,7 @@ ul {
 
   .grid-item{
       text-align: justify;
-      padding-left: 650px;
+      padding-left: 620px;
       padding-top: 15px;
   }
 
@@ -145,8 +144,23 @@ ul {
     display: inline-block;
     vertical-align: middle;
     column-gap: 10px;
+    padding-right: 15px;
   }
 
+  #text1{
+    margin-bottom: 10px;
+    display: inline;
+    vertical-align: middle;
+    width: calc(100% - 100px);  
+  }
+
+  #img1{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    column-gap: 10px;
+    padding-right: 15px;
+  }
   #about
   {
     position: absolute;
